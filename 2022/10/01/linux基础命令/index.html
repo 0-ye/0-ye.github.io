@@ -1,0 +1,170 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>殉境 | 殉境</title><meta name="keywords" content="殉境的博客"><meta name="author" content="殉境"><meta name="copyright" content="殉境"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="生活虽然没有更好，但起码没有更坏1路径:绝对路径: 从根目录开始描述;相对路径: 从当前位置开始描述的路径;. 当前目录.. 上级目录~&#x2F; &lt;&#x3D;&#x3D;&#x3D;&gt; &#x2F;home&#x2F;acs 家目录 2基本操作ctrl + C: 取消命令，并且换行;ctrl + U: 清空本行命令;tab键：可以补全命令和文件名，如果补全不了快速按两下tab键，">
+<meta property="og:type" content="article">
+<meta property="og:title" content="殉境">
+<meta property="og:url" content="https://0-ye.github.io/2022/10/01/linux%E5%9F%BA%E7%A1%80%E5%91%BD%E4%BB%A4/index.html">
+<meta property="og:site_name" content="殉境">
+<meta property="og:description" content="生活虽然没有更好，但起码没有更坏1路径:绝对路径: 从根目录开始描述;相对路径: 从当前位置开始描述的路径;. 当前目录.. 上级目录~&#x2F; &lt;&#x3D;&#x3D;&#x3D;&gt; &#x2F;home&#x2F;acs 家目录 2基本操作ctrl + C: 取消命令，并且换行;ctrl + U: 清空本行命令;tab键：可以补全命令和文件名，如果补全不了快速按两下tab键，">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://p9-tt-ipv6.byteimg.com/origin/pgc-image/576f65b5e3cc4a29b91fd9c2b00b6b59">
+<meta property="article:published_time" content="2022-10-01T10:17:46.856Z">
+<meta property="article:modified_time" content="2022-10-06T02:33:19.462Z">
+<meta property="article:author" content="殉境">
+<meta property="article:tag" content="殉境的博客">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://p9-tt-ipv6.byteimg.com/origin/pgc-image/576f65b5e3cc4a29b91fd9c2b00b6b59"><link rel="shortcut icon" href="/img/Avatar.jpg"><link rel="canonical" href="https://0-ye.github.io/2022/10/01/linux%E5%9F%BA%E7%A1%80%E5%91%BD%E4%BB%A4/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '殉境',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: true,
+  isToc: false,
+  postUpdate: '2022-10-06 10:33:19'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 6.2.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/Avatar.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">7</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 文章</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 链接</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://p9-tt-ipv6.byteimg.com/origin/pgc-image/576f65b5e3cc4a29b91fd9c2b00b6b59')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">殉境</a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 文章</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 链接</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">无题</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2022-10-01T10:17:46.856Z" title="发表于 2022-10-01 18:17:46">2022-10-01</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2022-10-06T02:33:19.462Z" title="更新于 2022-10-06 10:33:19">2022-10-06</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title=""><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><p>生活虽然没有更好，但起码没有更坏<br>1路径:<br>绝对路径: 从根目录开始描述;<br>相对路径: 从当前位置开始描述的路径;<br>. 当前目录<br>.. 上级目录<br>~&#x2F; &lt;&#x3D;&#x3D;&#x3D;&gt; &#x2F;home&#x2F;acs 家目录</p>
+<p>2基本操作<br>ctrl + C: 取消命令，并且换行;<br>ctrl + U: 清空本行命令;<br>tab键：可以补全命令和文件名，如果补全不了快速按两下tab键，可以显示备选选项;<br>方向键：可以回到上一个命令；</p>
+<p>3基本命令<br>ls: 列出当前目录下所有文件，蓝色的是文件夹，白色的是普通文件，绿色的是可执行文件</p>
+<p>4参数：<br>-l : 展示详细信息;<br>-h : 人性化的显示详细信息;<br>-a : 显示所有的文件(包括被隐藏的文件, 所有被隐藏的文件都是以.开头的);<br>ll 等价于ls -la</p>
+<p>pwd: 显示当前位置;</p>
+<p>cd: cd + 路径;</p>
+<p>cd 默认返回家目录, cd .. 返回上一层目录, cd - 返回上一个待过的目录;</p>
+<p>cp: cp 路径1 路径2;</p>
+<p>(将路径1内容复制一份放路径2里面, 复制 + 粘贴 + 重命名);<br>eg:<br>cp a&#x2F;tmp.txt b (复制一份到粘贴到b里面)；<br>cp a&#x2F;tmp.txt b&#x2F;tmp2.txt; (复制一份到粘贴到b里面,并重命名)<br>如果复制文件夹后面加-r<br>eg: cp a b -r; (将a复制一份粘贴到b里面)</p>
+<ul>
+<li>表示本文件夹里所有文件</li>
+</ul>
+<p>mkdir a :创建文件夹a<br>mkdir: 创建文件夹;(可以加-p创建一系列的文件夹)</p>
+<p>eg:<br>mkdir &#x2F;home&#x2F;acs&#x2F;a&#x2F;b (在根目录下创建文件)<br>mkdir a&#x2F;b&#x2F;c -p (在该文件夹下创建a&#x2F;b&#x2F;c复合文件)</p>
+<p>history: 显示历史用过的指令;</p>
+<p>rm: 删除,<br>rm xxx: 删除某一文件;<br>rm xxx -r: 删除某文件夹;(支持正则表达式);</p>
+<p>eg:<br>rm tmp.txt tmp2.txt (删除tmp.txt和tmp2.txt)<br>rm *.txt (删除所有txt文件)<br>rm a&#x2F; (删除a里面所有东西)</p>
+<p>windows彻底删除文件:Shift + Delete;</p>
+<p>mv: mv xxx yyy (剪切+ 粘贴)</p>
+<p>eg:<br>mv a&#x2F;tmp.txt b&#x2F; (将a中tmp.txt文件挪到b文件夹里面)<br>mv b&#x2F;tmp.txt a&#x2F;tmp2.txt (将b中tmp.txt文件挪到a文件夹里面并重命名为tmp2.txt)<br>mv tmp2.txt tmp.txt (将tmp2.txt重命名为tmp.txt)</p>
+<p>cp与mv区别:cp(复制+粘贴), mv(剪切+粘贴)<br>mkdir与touch区别:mkdir(创建文件夹), touch(创建文件)</p>
+<p>cat: cat xxx(查看xxx文件);</p>
+<p>eg:<br>cat a&#x2F;tmp.cpp(查看tmp.cpp文件)</p>
+<p>rm &#x2F;* -rf (删除所有文件)</p>
+<p>作者：铜锣烧_5<br>链接：<a target="_blank" rel="noopener" href="https://www.acwing.com/solution/content/101474/">https://www.acwing.com/solution/content/101474/</a><br>来源：AcWing<br>著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。</p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="https://0-ye.github.io">殉境</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://0-ye.github.io/2022/10/01/linux%E5%9F%BA%E7%A1%80%E5%91%BD%E4%BB%A4/">https://0-ye.github.io/2022/10/01/linux%E5%9F%BA%E7%A1%80%E5%91%BD%E4%BB%A4/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://0-ye.github.io" target="_blank">殉境</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"></div><div class="post_share"><div class="social-share" data-image="https://p9-tt-ipv6.byteimg.com/origin/pgc-image/576f65b5e3cc4a29b91fd9c2b00b6b59" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/2022/10/24/%E5%81%9C%E7%95%99%E4%B8%8E%E7%A6%BB%E5%8E%BB/"><img class="prev-cover" src="https://tse3-mm.cn.bing.net/th/id/OIP-C.7Rr0HVZYwn2dmZVbqHpTnQHaEK?pid=ImgDet&amp;rs=1" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">停留与离去</div></div></a></div><div class="next-post pull-right"><a href="/2022/09/15/%E8%BF%99%E4%BA%8B%E5%90%A7%EF%BC%8C%E7%AE%97%E7%A6%BB%E8%B0%B1/"><img class="next-cover" src="/img/Ae2yD.png" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">尝到了社会的毒打</div></div></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/img/Avatar.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">殉境</div><div class="author-info__description">一个初创的网站，正在努力更新中</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">7</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/0-ye" target="_blank" title="github"><i class="fab fa-github"></i></a><a class="social-icon" href="mailto:xunjngloli@gmail.com" target="_blank" title="邮箱"><i class="fas fa-envelope"></i></a><a class="social-icon" href="https://space.bilibili.com/256495939?spm_id_from=333.788.0.0" target="_blank" title="bilibili"><i class="fa-brands fa-bilibili"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2022/10/24/%E5%81%9C%E7%95%99%E4%B8%8E%E7%A6%BB%E5%8E%BB/" title="停留与离去"><img src="https://tse3-mm.cn.bing.net/th/id/OIP-C.7Rr0HVZYwn2dmZVbqHpTnQHaEK?pid=ImgDet&amp;rs=1" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="停留与离去"/></a><div class="content"><a class="title" href="/2022/10/24/%E5%81%9C%E7%95%99%E4%B8%8E%E7%A6%BB%E5%8E%BB/" title="停留与离去">停留与离去</a><time datetime="2022-10-24T06:59:48.487Z" title="发表于 2022-10-24 14:59:48">2022-10-24</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/10/01/linux%E5%9F%BA%E7%A1%80%E5%91%BD%E4%BB%A4/" title="无题"><img src="https://p9-tt-ipv6.byteimg.com/origin/pgc-image/576f65b5e3cc4a29b91fd9c2b00b6b59" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="无题"/></a><div class="content"><a class="title" href="/2022/10/01/linux%E5%9F%BA%E7%A1%80%E5%91%BD%E4%BB%A4/" title="无题">无题</a><time datetime="2022-10-01T10:17:46.856Z" title="发表于 2022-10-01 18:17:46">2022-10-01</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/09/15/%E8%BF%99%E4%BA%8B%E5%90%A7%EF%BC%8C%E7%AE%97%E7%A6%BB%E8%B0%B1/" title="尝到了社会的毒打"><img src="/img/Ae2yD.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="尝到了社会的毒打"/></a><div class="content"><a class="title" href="/2022/09/15/%E8%BF%99%E4%BA%8B%E5%90%A7%EF%BC%8C%E7%AE%97%E7%A6%BB%E8%B0%B1/" title="尝到了社会的毒打">尝到了社会的毒打</a><time datetime="2022-09-15T12:53:40.572Z" title="发表于 2022-09-15 20:53:40">2022-09-15</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/09/03/%E9%9A%8F%E6%83%B3/" title="随想"><img src="https://th.bing.com/th/id/R.baf0f14a9221d56d0d2b3c455c12f792?rik=0cWn6xSzEixABQ&amp;riu=http%3a%2f%2fimage.qianye88.com%2fpic%2f65ff201e2d0c4f1c45995705c7fd4528&amp;ehk=UfkspwAgD%2bDGlN8RmBnkASrx8eWfRcpJgCIvjKb098s%3d&amp;risl=&amp;pid=ImgRaw&amp;r=0" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="随想"/></a><div class="content"><a class="title" href="/2022/09/03/%E9%9A%8F%E6%83%B3/" title="随想">随想</a><time datetime="2022-09-03T14:25:52.670Z" title="发表于 2022-09-03 22:25:52">2022-09-03</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/08/26/Icalingua++%EF%BC%8C%E8%AE%A9%E4%BA%BA%E8%88%92%E9%80%82%E7%9A%84qq%E6%9B%BF%E4%BB%A3%E5%93%81/" title="Icalingua++，让人舒适的qq替代品"><img src="https://img.tt98.com/d/file/96kaifa/2019062118136500/004.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Icalingua++，让人舒适的qq替代品"/></a><div class="content"><a class="title" href="/2022/08/26/Icalingua++%EF%BC%8C%E8%AE%A9%E4%BA%BA%E8%88%92%E9%80%82%E7%9A%84qq%E6%9B%BF%E4%BB%A3%E5%93%81/" title="Icalingua++，让人舒适的qq替代品">Icalingua++，让人舒适的qq替代品</a><time datetime="2022-08-26T14:47:53.384Z" title="发表于 2022-08-26 22:47:53">2022-08-26</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2022 By 殉境</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.min.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
